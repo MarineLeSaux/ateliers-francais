@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  background-color: #d2ddee;
+}
+
+.title {
+  color: #f24e18;
+  text-align: center;
+  font-size: 600%;
+  font-family: "Permanent Marker", cursive;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.levelbtn {
+  color: white;
+  font-size: 800%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  border-radius: 10px;
+  border: solid 10px;
+  border-color: rgba(0, 0, 0, 0.1);
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 10%;
+}
+
+.levelbtn:hover {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}
+
+.levelbtn:focus {
+  color: rgb(238, 234, 226);
+}
+
+.btnA1 {
+  background-color: #c5070d;
+}
+
+.btnA2 {
+  background-color: #c1df1f;
+}
+
+.btnB1 {
+  background-color: #45062e;
+}
+
+.btnB2 {
+  background-color: #2ab7ca;
+}
+
+.btnwrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.rowwrapper {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 11%;
+  margin-bottom: auto;
+}
